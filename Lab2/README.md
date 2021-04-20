@@ -9,7 +9,7 @@
     
     message/rfc822 jest to format wiadomości email
     
-![strona głóna](/Lab2/6.jpg)
+![strona głóna](/Lab2/6.JPG)
 
 W pliku manifest możemy ustalić typ intencji jakie dana aktywność ma przyjmość, intent filter
 np.
