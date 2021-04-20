@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Wyślij SMS/EMAIL</string>
+    <string name="send">Wyślij Wiadomość</string>
+    <string name="hint">Podaj wiadomośc</string>
+    <string name="actionSend">Wyślij wiadomość SMS</string>
+    <string name="chooser">Wyslij wiadomość za pomocą.....</string>
+    <string name="email">Wyślij email</string>
+    <string name="subject">Podaj temat maila</string>
+</resources>
