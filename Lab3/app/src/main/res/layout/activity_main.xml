@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/shop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shop"
+        android:layout_gravity="center_vertical"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/list"
+            android:textSize="70sp"
+            android:gravity="bottom|center"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_milk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/milk" />
+
+        <CheckBox
+            android:id="@+id/checkbox_sugar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sugar" />
+
+        <CheckBox
+            android:id="@+id/checkbox_sol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sol" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pieprz"
+            android:layoutDirection="rtl"/>
+
+        <ToggleButton
+            android:id="@+id/toggle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/off"
+            android:textOn="@string/on"
+            android:onClick="onToggleButtonClicked"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/changeViewButton"
+            android:onClick="onChangeViewButton"
+            android:src="@drawable/map"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/blinkingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shop"
+        android:layout_gravity="center|bottom"
+        android:paddingBottom="50dp"
+        android:textSize="25sp"
+        android:textColor="@color/red"/>
+</FrameLayout>

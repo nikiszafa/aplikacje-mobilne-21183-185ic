@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="off">Wyłączony</string>
+    <string name="on">Włączony</string>
+    <string name="milk">Mleko</string>
+    <string name="sugar">Cukier</string>
+    <string name="list">Lista Zakupów</string>
+    <string name="shop">Udaj się do biedronki!!</string>
+    <string name="sol">Kiełba</string>
+    <string name="pieprz">Pieprz</string>
+    <string name="to_label">Wybierz Sklep</string>
+    <string name="email_hint">Podaj adres sklepu</string>
+    <string name="subject_hint">Subject</string>
+    <string name="message_hint">Message</string>
+    <string name="send_button">Send</string>
+    <string name="zabka">Żabka</string>
+    <string name="biedronka">Biedronka</string>
+    <string name="auchan">Auchan</string>
+    <string name="carrefour">Carrefour</string>
+    <string name="tesco">Tesco</string>
+    <string name="mediaExpert">Media Expert</string>
+    <string name="groszek">Groszek</string>
+    <string name="rtvEuro">Rtv Euro Agd</string>
+
+    <string-array name="spinner_values">
+        <item>Przemysłowy</item>
+        <item>Spożywczy</item>
+        <item>RTV</item>
+        <item>Chemiczny</item>
+    </string-array>
+
+</resources>

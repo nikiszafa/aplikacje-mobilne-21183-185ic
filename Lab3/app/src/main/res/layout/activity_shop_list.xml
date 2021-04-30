@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShopListActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ShopListActivity">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:entries="@array/spinner_values"
+            android:scrollbarSize="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center|center_vertical"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner">
+
+            <RadioButton
+                android:id="@+id/zabka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zabka"
+                android:textSize="60sp" />
+
+            <RadioButton
+                android:id="@+id/biedronka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/biedronka"
+                android:textSize="60sp" />
+
+            <RadioButton
+                android:id="@+id/auchan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/auchan"
+                android:textSize="60sp" />
+
+            <RadioButton
+                android:id="@+id/carrefour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/carrefour"
+                android:textSize="60sp" />
+
+            <RadioButton
+                android:id="@+id/tesco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tesco"
+                android:textSize="60sp" />
+
+            <RadioButton
+                android:id="@+id/MediaExpert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mediaExpert"
+                android:textSize="60sp" />
+
+            <RadioButton
+                android:id="@+id/groszek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/groszek"
+                android:textSize="60sp" />
+
+            <RadioButton
+                android:id="@+id/rtvEuro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rtvEuro"
+                android:textSize="60sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Wybierz Sklep"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
