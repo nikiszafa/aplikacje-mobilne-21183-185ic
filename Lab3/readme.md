@@ -12,3 +12,13 @@ LinearLayout nie posiada scrollbara, i nie możemy scrolować w dół strony. Sc
 i rozwiązuje ten problem.
 
 - Użyłem Switch oraz CheckBox aby zaznaczać zakupione produkty.
+
+![strona głóna](/Lab3/1.JPG)
+![strona głóna](/Lab3/2.JPG)
+![strona głóna](/Lab3/3.JPG)
+![strona głóna](/Lab3/4.JPG)
+![strona głóna](/Lab3/5.JPG)
+
+
+
+
