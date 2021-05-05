@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pizzeria u Nikodema</string>
+    <string name="create_order">Złóż zamówienie</string>
+    <string name="create_order_title">Create Order</string>
+    <string name="action_share">Share</string>
+    <string name="pizza_logo">Pizza Logo</string>
+    <string name="our_pizzas">Nasze Pizze</string>
+    <string name="choosen_Pizza">Wybrana Pizza</string>
+    <string name="order_text">Tutaj możesz złożyć zamówienie na pizze</string>
+    <string-array name="options">
+        <item>Pizza</item>
+        <item>Napoje</item>
+        <item>Przystawki</item>
+    </string-array>
+
+</resources>
