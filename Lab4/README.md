@@ -1,3 +1,4 @@
+### LAB4 Widoki list, adaptery, paski aplikacji
 - Listview pozwala wyświetlać dowolne elementy w postaci listy. 
 Posiada pasek przewijania, jeśli elementy nie mieszczą sie na ekranie.
 
@@ -17,14 +18,18 @@ kodu do każdego layoutu.
 
 ![strona głóna](/Lab4/1.png)
 - Pierwszy poziom
-![strona głóna](/Lab4/2.png)
+
+![strona głóna](/Lab4/2.JPG)
 - Drugi poziom po kliknięciu na "Pizza"
-![strona głóna](/Lab4/4.png)
+
+![strona głóna](/Lab4/4.JPG)
 - Trzeci poziom po kliknięciu na wybraną pizze
-![strona głóna](/Lab4/5.png)
-![strona głóna](/Lab4/6.png)
+
+![strona głóna](/Lab4/5.JPG)
+![strona głóna](/Lab4/6.JPG)
 - Po kliknięciu na przycisk + na toolbarze
-![strona głóna](/Lab4/3.png)
+
+![strona głóna](/Lab4/3.JPG)
 
 
 
