@@ -13,7 +13,7 @@ Kiedy kończą swoje działanie, pozwalają na aktualizację widoku w głównym 
 - onPostExecute() - metoda działająca po doInBackground() 
 
 - onProgressUpdate() - metoda publikująca progress zadania
-
+- 
 ![strona głóna](/Lab7/3.JPG)
 
 - Parametry 
@@ -22,8 +22,10 @@ Kiedy kończą swoje działanie, pozwalają na aktualizację widoku w głównym 
 
 
 Możemy dodawać napoje do ulubionych
+
 ![strona głóna](/Lab7/1.JPG)
 
 Ulubione napoje pokazują sie na głównym ekranie. 
 Naciskajac na nie trafiamy na ich opis
+
 ![strona głóna](/Lab7/2.JPG)
