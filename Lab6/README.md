@@ -1,3 +1,5 @@
+### LAB6. Baza danych SQLite i kursory
+
 - SQLite Database - daje nam dostęp do bazy danych.
 
 - SQLiteOpenHelper() - pomaga nam tworzyć i zarządzać bazą danych
