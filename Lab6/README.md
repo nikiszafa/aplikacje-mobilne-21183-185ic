@@ -29,3 +29,7 @@ moveToLast() - idziemy do ostatniego rekordu
 moveToPrevious() - idzeimy do poprzedniego rekordu
 moveToNext() - idziemy do nastepnego rekordu
 ![strona głóna](/Lab6/4.JPG)
+
+Aplikacja wyświetla różne rodzaje napojów.
+
+![strona głóna](/Lab6/5.JPG)
